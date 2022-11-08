@@ -95,10 +95,10 @@ export default {
 
 
 
-<style lang="scss" scope>
+<style lang="scss" scoped>
 
   header{
-    height: 20vh;
+    height: 15vh;
     background-color: lightblue;
 
     ul{
@@ -112,6 +112,10 @@ export default {
                 color: blue;
             }
         }
+    }
+
+    img{
+        height: 12vh;
     }
   }
 
