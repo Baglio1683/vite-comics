@@ -6,6 +6,15 @@
   box-sizing: border-box;
 }
 
+.container{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 html {
   font-family: "Roboto", sans-serif;
   font-size: 100%;
