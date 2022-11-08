@@ -3,13 +3,15 @@ import Header from "./components/Header.vue";
 import AppContent from "./components/AppContent.vue";
 import AppMenu from "./components/AppMenu.vue";
 import AppJumbo from "./components/AppJumbo.vue";
+import AppFooter from "./components/AppFooter.vue";
 
 export default {
   components: {
     Header,
     AppContent, 
     AppMenu, 
-    AppJumbo
+    AppJumbo,
+    AppFooter
   }
 }
 
@@ -22,6 +24,7 @@ export default {
 <AppContent></AppContent>
 <AppMenu></AppMenu>
 <AppJumbo></AppJumbo>
+<AppFooter></AppFooter>
 
 </template>
 
