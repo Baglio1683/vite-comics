@@ -56,8 +56,8 @@ export default{
 
     footer{
         background-color: rgb(95, 95, 95);
-        height: 10vh;
         width: 100%;
+        padding: 1rem;
             ul{
             list-style: none;
 
