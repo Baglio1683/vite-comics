@@ -41,6 +41,7 @@ export default{
         height: 45vh;
         width: 100%;
         background-image: url("../assets/img/footer-bg.jpg");
+        color: white
     }
 
     .logo{

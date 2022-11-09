@@ -7,61 +7,61 @@ export default {
             links: [
                 {
                     title: "CHARACTERS",
-                    href: "/home",
+                    href: "/characters",
                     active: true,
                 },
 
                 {
                     title: "COMICS",
-                    href: "/products",
+                    href: "/comics",
                     active: true,
                 },
 
                 {
                     title: "MOVIES",
-                    href: "/about",
+                    href: "/movies",
                     active: true,
                 },
 
                 {
                     title: "TV",
-                    href: "/contacts",
+                    href: "/tv",
                     active: true,
                 },
 
                 {
                     title: "GAMES",
-                    href: "/contacts",
+                    href: "/games",
                     active: true,
                 },
 
                 {
                     title: "COLLECTIBLES",
-                    href: "/contacts",
+                    href: "/collectibles",
                     active: true,
                 },
 
                 {
                     title: "VIDEOS",
-                    href: "/contacts",
+                    href: "/videos",
                     active: true,
                 },
 
                 {
                     title: "FANS",
-                    href: "/contacts",
+                    href: "/fans",
                     active: true,
                 },
 
                 {
                     title: "NEWS",
-                    href: "/contacts",
+                    href: "/news",
                     active: true,
                 },
 
                 {
                     title: "SHOP",
-                    href: "/contacts",
+                    href: "/shop",
                     active: true,
                 },
             ]
@@ -83,7 +83,7 @@ export default {
             <img src="../assets/img/dc-logo.png" alt="">
         </div>
 
-        <div>
+        <div class="right_header">
             <ul>
                 <li v-for="(item) in links">{{item.title}}</li>
             </ul>
@@ -101,18 +101,21 @@ export default {
     height: 15vh;
     background-color: lightblue;
 
-    ul{
-        list-style: none;
+    .right_header{
 
-        li{
-            display: inline-block;
-            margin-right: 10px;
+        ul{
+            list-style: none;
 
-            &:hover{
-                color: blue;
+            li{
+                display: inline-block;
+                margin-right: 10px;
+
+                &:hover{
+                    color: blue;
+                }
             }
         }
-    }
+     }
 
     img{
         height: 12vh;

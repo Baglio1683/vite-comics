@@ -12,25 +12,25 @@ export default {
                     },
 
                     {
-                        srcIm : "../assets/img/buy-comics-merchandise.png",
+                      srcIm : "../assets/img/buy-comics-merchandise.png",
                       description: "DC MERCHANDISE"
 
                     },
 
                     {
-                        srcIm : "../assets/img/buy-comics-shop-locator.png",
+                      srcIm : "../assets/img/buy-comics-shop-locator.png",
                       description: "COMIC SHOP LOCATOR"
 
                     },
 
                     {
-                        srcIm : "../assets/img/buy-dc-power-visa.svg",
+                      srcIm : "../assets/img/buy-dc-power-visa.svg",
                       description: "DC POWER VISA"
 
                     },
 
                     {
-                        srcIm : "../assets/img/buy-comics-subscriptions.png",
+                      srcIm : "../assets/img/buy-comics-subscriptions.png",
                       description: "SUBSCRIPTOR"
 
                     },
@@ -81,6 +81,8 @@ section{
         color: white;
         margin-right: 15px;
         width: calc(100% / 5 - 15px);
+        font-size: small;
+
 
         img{
             margin-right: 10px;
