@@ -104,10 +104,14 @@
         <div class="container">
            
          <div class="card_series" v-for="(item) in seriesList">
-            <img :src="getImagePath(item.thumb)" alt="">
+               <img :src="getImagePath(item.thumb)" alt="">
             <p>{{item.series}}</p>
          </div>
 
+        </div>
+
+        <div class="load">
+            <a href="">LOAD MORE</a>
         </div>
 
     </section>
@@ -133,6 +137,18 @@
         left: 100px;
     }
 
+    .load{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+
+        a{
+            background-color: aqua;
+            padding: 0.5em; 
+            color: white;
+        }
+    }
+
     .container{
 
         flex-wrap: wrap;
@@ -144,11 +160,13 @@
         text-align: center;
         color: white;
         max-height: 270px;
+
         
         p{
             font-size: small;
         }
 
+       
       }
    }
  }
