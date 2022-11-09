@@ -70,7 +70,10 @@ export default{
         color: white; 
         padding: 1rem;
         height: 50vh;
-
+        padding-top: 0;
+        padding-bottom: 0;
+      
+    .container{      
         .lists{
             max-height: 100%;
             display: flex;
@@ -90,6 +93,7 @@ export default{
                     color: rgb(170, 170, 170);
                 }
             }
+        }
 
         }
     .logo{

@@ -99,7 +99,6 @@ export default {
 
   header{
     height: 15vh;
-    background-color: lightblue;
 
     .right_header{
 

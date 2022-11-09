@@ -131,7 +131,7 @@
         color: white;
         text-decoration: none;
         padding: 0.5em;
-        background-color: blue;
+        background-color: #0282F9;
         position: absolute;
         top: -20px;
         left: 100px;
@@ -143,8 +143,12 @@
         margin-top: 20px;
 
         a{
-            background-color: aqua;
-            padding: 0.5em; 
+            background-color: #0282F9;
+            text-decoration: none;
+            padding-right: 2em;
+            padding-left: 2em;
+            padding-top: 0.5em;
+            padding-bottom: 0.5em; 
             color: white;
         }
     }

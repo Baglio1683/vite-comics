@@ -72,7 +72,7 @@ export default {
 
 section{
     height: 20vh;
-    background-color: rgb(73, 73, 255);
+    background-color:  #0282F9;
 
     .card{
         display: flex;
