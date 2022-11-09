@@ -85,7 +85,7 @@ export default {
 
         <div class="right_header">
             <ul>
-                <li v-for="(item) in links">{{item.title}}</li>
+                <li v-for="(item) in links"><a href="">{{item.title}}</a></li>
             </ul>
         </div>
 
@@ -109,8 +109,13 @@ export default {
                 display: inline-block;
                 margin-right: 10px;
 
-                &:hover{
-                    color: blue;
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+
+                & a:hover{
+                    color: #0280F9;
                 }
             }
         }

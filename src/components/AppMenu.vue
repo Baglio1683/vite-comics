@@ -60,7 +60,8 @@ export default {
             <div class="card" v-for="(item) in links">
 
                 <img :src="getImagePath(item.srcIm)" alt="">
-                <p>{{item.description}}</p>
+                <a href="">{{item.description}}</a>
+                
                 
             </div>
 
@@ -78,11 +79,14 @@ section{
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        color: white;
         margin-right: 15px;
         width: calc(100% / 5 - 15px);
         font-size: small;
 
+        a{
+            text-decoration: none;
+            color: white;
+        }
 
         img{
             margin-right: 10px;

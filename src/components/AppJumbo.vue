@@ -45,7 +45,7 @@ export default{
 
                 <ul v-for="(itm,index) in jumboList">
                     <h4>{{itm.nameList}}</h4>
-                    <li v-for="(element) in jumboList[index].liss">{{element}}</li>
+                    <li v-for="(element) in jumboList[index].liss"><a href="">{{element}}</a></li>
                 </ul>
 
             </div>
@@ -89,8 +89,11 @@ export default{
                 margin-bottom: 20px;
                 list-style: none;
                 li{
+                    a{
+                    text-decoration: none;
                     font-size: small;
                     color: rgb(170, 170, 170);
+                    }
                 }
             }
         }
